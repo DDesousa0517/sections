@@ -4,9 +4,47 @@ html {
   background-color: #eee9de;
   font-family: Lato, sans-serif;
   line-height: 1.5;
-
+  margin: 2em;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+}
+
+header {
+  display: inline-block;
+  max-width: 25em;
+}
+
+img {
+  width: 25em;
+}
+
+h1 {
+  text-align: left;
+}
+
+p {
+  text-align: left;
+}
+
+nav {
+  color: #666;
+  padding: .4em .75em .5em;
+  border: 3px solid #666;
+  border-radius: 5px;
+  display: block;
+  width: 28%;
+}
+
+nav:hover {
+  color: #eee9de;
+  background-color: #666;
 }
